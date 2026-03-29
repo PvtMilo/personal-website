@@ -33,16 +33,18 @@ const toggleNav = () => {
 </script>
 
 <template>
-  <header>
+  <header class="sticky top-0 z-50">
     <div class="debugging res absolute z-60 bg-red-950">
       <h2>Height: {{ windowHeight }}</h2>
       <h2>width: {{ windowWidth }}</h2>
       <h2>large res: {{ largeRes }}</h2>
     </div>
-    <nav class="relative">
+    <nav
+      class="relative z-50 h-16 lg:h-20 lg:flex lg:flex-col justify-center bg-black"
+    >
       <ul
         v-if="smallRes"
-        class="relative z-50 flex justify-between border-2 bg-black py-2 px-4 text-white items-center"
+        class="relative z-20 h-full flex justify-between px-4 border-2 border-white bg-black text-white items-center"
       >
         <li class="text-3xl">
           <NuxtLink to="/">IP</NuxtLink>
@@ -88,7 +90,10 @@ const toggleNav = () => {
           </button>
         </li>
       </ul>
-      <ul v-else class="flex border-2 py-4 justify-center text-2xl uppercase gap-6">
+      <ul
+        v-else
+        class="relative z-20 flex border-2 justify-center items-center bg-black text-2xl uppercase gap-6 border-white h-full"
+      >
         <li><NuxtLink to="/">Home</NuxtLink></li>
         <li><NuxtLink to="/about">About</NuxtLink></li>
         <li><NuxtLink to="/works">Works</NuxtLink></li>
@@ -98,7 +103,10 @@ const toggleNav = () => {
       </ul>
 
       <Transition name="roll">
-        <div v-if="isNavOpen" class="absolute top-full left-0 z-40 w-full">
+        <div
+          v-if="isNavOpen"
+          class="absolute top-full left-0 z-10 w-full overflow-hidden"
+        >
           <ul class="flex flex-col items-center gap-4 bg-red-900 py-6 text-3xl">
             <li><NuxtLink @click="toggleNav" to="/">Home</NuxtLink></li>
             <li><NuxtLink @click="toggleNav" to="/about">About</NuxtLink></li>
