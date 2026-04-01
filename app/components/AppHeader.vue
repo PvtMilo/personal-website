@@ -1,30 +1,4 @@
 <script setup>
-const windowWidth = ref(0);
-const windowHeight = ref(0);
-
-const handleResize = () => {
-  windowWidth.value = window.innerWidth;
-  windowHeight.value = window.innerHeight;
-  console.log(
-    "Window dimensions changed:",
-    windowWidth.value,
-    windowHeight.value,
-  );
-};
-
-onMounted(() => {
-  handleResize();
-  window.addEventListener("resize", handleResize);
-});
-
-onBeforeUnmount(() => {
-  window.removeEventListener("resize", handleResize);
-});
-
-const smallRes = computed(() => {
-  return windowWidth.value < 768 ? true : false;
-});
-
 const isNavOpen = ref(false);
 
 const toggleNav = () => {
@@ -34,17 +8,11 @@ const toggleNav = () => {
 
 <template>
   <header class="sticky top-0 z-50">
-    <div class="debugging res absolute z-60 bg-red-950">
-      <h2>Height: {{ windowHeight }}</h2>
-      <h2>width: {{ windowWidth }}</h2>
-      <h2>large res: {{ largeRes }}</h2>
-    </div>
     <nav
       class="relative z-50 h-16 lg:h-20 lg:flex lg:flex-col justify-center bg-black"
     >
       <ul
-        v-if="smallRes"
-        class="relative z-20 h-full flex justify-between px-4 border-2 border-white bg-black text-white items-center"
+        class="md:hidden relative z-20 h-full flex justify-between px-4 border-2 border-white bg-black text-white items-center"
       >
         <li class="text-3xl">
           <NuxtLink to="/">IP</NuxtLink>
@@ -91,23 +59,19 @@ const toggleNav = () => {
         </li>
       </ul>
       <ul
-        v-else
-        class="relative z-20 flex border-2 justify-center items-center bg-black text-2xl uppercase gap-6 border-white h-full"
+        class="hidden relative z-20 md:flex border-2 justify-center items-center bg-black md:text-xl lg:text-2xl uppercase gap-6 border-white h-full"
       >
         <li><NuxtLink to="/">Home</NuxtLink></li>
         <li><NuxtLink to="/about">About</NuxtLink></li>
         <li><NuxtLink to="/works">Works</NuxtLink></li>
         <li>
-          <NuxtLink @click="toggleNav" to="/contact">Contact</NuxtLink>
+          <NuxtLink to="/contact">Contact</NuxtLink>
         </li>
       </ul>
 
       <Transition name="roll">
-        <div
-          v-if="isNavOpen"
-          class="absolute top-full left-0 z-10 w-full overflow-hidden"
-        >
-          <ul class="flex flex-col items-center gap-4 bg-red-900 py-6 text-3xl">
+        <div v-if="isNavOpen" class="absolute top-full left-0 z-40 w-full">
+          <ul class="flex flex-col items-center gap-4 bg-red-900 text-3xl">
             <li><NuxtLink @click="toggleNav" to="/">Home</NuxtLink></li>
             <li><NuxtLink @click="toggleNav" to="/about">About</NuxtLink></li>
             <li><NuxtLink @click="toggleNav" to="/works">Works</NuxtLink></li>
