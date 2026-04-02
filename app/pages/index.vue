@@ -1,7 +1,7 @@
 <template>
-  <main >
+  <main>
     <section
-      class="w-full lg:max-w-7xl min-h-[calc(100dvh-4rem)] lg:min-h-[calc(100dvh-5rem)] flex flex-col justify-center items-center border-b-2 border-white mx-auto"
+      class="w-full lg:max-w-7xl min-h-[calc(100dvh-4rem)] lg:min-h-[calc(100dvh-5rem)] flex flex-col justify-center border-b-2 border-white mx-auto"
     >
       <div
         class="grid sm:bg-amber-900 md:bg-red-950 lg:bg-green-900 xl:bg-red-800 lg:grid-cols-4 lg:grid-rows-4 place-items-center lg:place-items-start gap-4 lg:gap-4 text-center text-white border-2"
@@ -23,27 +23,37 @@
           <NuxtImg class="h-full w-full object-cover" src="/avatar.jpg" />
         </div>
 
-        <p
-          class="text-base sm:text-xl lg:col-start-1 lg:col-end-4 border-2 lg:text-left lg:max-w-2xl"
+        <div
+          class="text-base lg:col-start-1 lg:col-end-4 border-2 lg:text-left lg:max-w-2xl"
         >
-          <p class="max-w-sm text-sm lg:max-w-2xl lg:text-xl">
+          <p
+            class="max-w-xl text-base sm:text-lg sm:text-normal lg:max-w-2xl lg:text-xl"
+          >
             A passionate web developer focused on building modern and meaningful
             digital experiences.
           </p>
-
-          <button class="rounded-xl border-2 px-4 py-2">Learn More</button>
         </div>
+        <button class="rounded-xl border-2 px-4 py-2">Learn More</button>
       </div>
     </section>
     <!-- EXPERTISE -->
-    <section id="expertise" class="flex flex-col md:items-center gap-6 border-2 mx-auto">
+    <section
+      id="expertise"
+      class="flex flex-col sm:items-center gap-6 border-2 mx-auto bg-amber-500 items-center"
+    >
       <div class="flex flex-col border-2">
-        <h2 class="text-3xl text-center mb-4">Tech Stack</h2>
-        <ul class="grid grid-cols-3 sm:grid-cols-7 text-center border-2 ">
+        <h2 class="text-2xl lg:text-3xl font-bold text-center mb-4">
+          Tech Stack
+        </h2>
+        <ul
+          class="grid grid-cols-4 sm:grid-cols-7 text-center border-2 lg:gap-4"
+        >
           <li class="flex flex-col items-center gap-2 border-2">
-            <div class="flex h-16 w-16 items-center justify-center">
+            <div
+              class="flex h-16 w-16 lg:h-20 lg:w-20 items-center justify-center"
+            >
               <svg
-                class="w-12 h-12"
+                class="w-12 h-12 md:h-16 md:w-16 lg:h-20 lg:w-20"
                 viewBox="0 0 256 256"
                 xmlns="http://www.w3.org/2000/svg"
                 preserveAspectRatio="xMinYMin meet"
@@ -63,12 +73,14 @@
                 </g>
               </svg>
             </div>
-            <p class="text-sm">JavaScript</p>
+            <p class="text-sm lg:text-base font-bold">JavaScript</p>
           </li>
           <li class="flex flex-col items-center gap-2 border-2">
-            <div class="flex h-16 w-16 md:w-30 items-center justify-center">
+            <div
+              class="flex h-16 w-16 lg:h-20 lg:w-20 items-center justify-center"
+            >
               <svg
-                class="w-12 h-12 sm:w-16 sm:h-16 "
+                class="w-12 h-12 md:h-16 md:w-16 lg:h-20 lg:w-20"
                 viewBox="0 0 32 32"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -91,12 +103,14 @@
                 </g>
               </svg>
             </div>
-            <p class="text-sm">Vue.js</p>
+            <p class="text-sm lg:text-base font-bold">Vue.js</p>
           </li>
           <li class="flex flex-col items-center gap-2 border-2">
-            <div class="flex h-16 w-16 items-center justify-center">
+            <div
+              class="flex h-16 w-16 lg:h-20 lg:w-20 items-center justify-center"
+            >
               <svg
-                class="w-12 h-12"
+                class="w-12 h-12 md:h-16 md:w-16 lg:h-20 lg:w-20"
                 viewBox="0 0 32 32"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -147,12 +161,14 @@
                 </g>
               </svg>
             </div>
-            <p class="text-sm">Python</p>
+            <p class="text-sm lg:text-base font-bold">Python</p>
           </li>
           <li class="flex flex-col items-center gap-2 border-2">
-            <div class="flex h-16 w-16 items-center justify-center">
+            <div
+              class="flex h-16 w-16 lg:h-20 lg:w-20 items-center justify-center"
+            >
               <svg
-                class="w-12 h-12"
+                class="w-12 h-12 md:h-16 md:w-16 lg:h-20 lg:w-20"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 128 128"
               >
@@ -162,12 +178,14 @@
                 />
               </svg>
             </div>
-            <p class="text-sm">FastAPI</p>
+            <p class="text-sm lg:text-base font-bold">FastAPI</p>
           </li>
           <li class="flex flex-col items-center gap-2 border-2">
-            <div class="flex h-16 w-16 items-center justify-center">
+            <div
+              class="flex h-16 w-16 lg:h-20 lg:w-20 items-center justify-center"
+            >
               <svg
-                class="w-12 h-12"
+                class="w-12 h-12 md:h-16 md:w-16 lg:h-20 lg:w-20"
                 viewBox="0 0 512 512"
                 xmlns="http://www.w3.org/2000/svg"
                 fill-rule="evenodd"
@@ -182,12 +200,14 @@
                 />
               </svg>
             </div>
-            <p class="text-sm">Nuxt.js</p>
+            <p class="text-sm lg:text-base font-bold">Nuxt.js</p>
           </li>
           <li class="flex flex-col items-center gap-2 border-2">
-            <div class="flex h-16 w-16 items-center justify-center">
+            <div
+              class="flex h-16 w-16 lg:h-20 lg:w-20 items-center justify-center"
+            >
               <svg
-                class="w-12 h-12 sm:w-14 sm:h-14"
+                class="w-12 h-12 md:h-16 md:w-16 lg:h-20 lg:w-20"
                 viewBox="-4 0 264 264"
                 xmlns="http://www.w3.org/2000/svg"
                 preserveAspectRatio="xMinYMin meet"
@@ -218,12 +238,14 @@
                 </g>
               </svg>
             </div>
-            <p class="text-sm">PostgreSQL</p>
+            <p class="text-sm lg:text-base font-bold">PostgreSQL</p>
           </li>
           <li class="flex flex-col items-center gap-2 border-2">
-            <div class="flex h-16 w-16 items-center justify-center">
+            <div
+              class="flex h-16 w-16 lg:h-20 lg:w-20 items-center justify-center"
+            >
               <svg
-                class="w-12 h-12"
+                class="w-12 h-12 md:h-16 md:w-16 lg:h-20 lg:w-20"
                 viewBox="-16.5 0 289 289"
                 version="1.1"
                 xmlns="http://www.w3.org/2000/svg"
@@ -247,18 +269,20 @@
                 </g>
               </svg>
             </div>
-            <p class="text-sm">Node.js</p>
+            <p class="text-sm lg:text-base font-bold">Node.js</p>
           </li>
         </ul>
       </div>
       <!-- TOOLS -->
       <div class="flex flex-col gap-4">
-        <h2 class="text-3xl text-center">Tools</h2>
-        <ul class="grid grid-cols-3 sm:grid-cols-7 text-center">
+        <h2 class="text-2xl text-center lg:text-3xl font-bold">Tools</h2>
+        <ul class="grid grid-cols-3 sm:grid-cols-7 text-center lg:gap-4">
           <li class="flex flex-col sm:col-start-3 items-center gap-2 border-2">
-            <div class="flex h-16 w-16 items-center justify-center">
+            <div
+              class="flex h-16 w-16 lg:h-20 lg:w-20 items-center justify-center"
+            >
               <svg
-                class="w-12 h-12"
+                class="w-12 h-12 md:h-16 md:w-16 lg:h-20 lg:w-20"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="none"
@@ -269,12 +293,14 @@
                 />
               </svg>
             </div>
-            <p class="text-sm">Git</p>
+            <p class="text-sm lg:text-base font-bold">Git</p>
           </li>
           <li class="flex flex-col items-center gap-2 border-2">
-            <div class="flex h-16 w-16 items-center justify-center">
+            <div
+              class="flex h-16 w-16 lg:h-20 lg:w-20 items-center justify-center"
+            >
               <svg
-                class="w-12 h-12"
+                class="w-12 h-12 md:h-16 md:w-16 lg:h-20 lg:w-20"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="none"
@@ -285,12 +311,14 @@
                 />
               </svg>
             </div>
-            <p class="text-sm">Github</p>
+            <p class="text-sm lg:text-base font-bold">Github</p>
           </li>
           <li class="flex flex-col items-center gap-2 border-2">
-            <div class="flex h-16 w-16 items-center justify-center">
+            <div
+              class="flex h-16 w-16 lg:h-20 lg:w-20 items-center justify-center"
+            >
               <svg
-                class="w-12 h-12"
+                class="w-12 h-12 md:h-16 md:w-16 lg:h-20 lg:w-20"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="none"
@@ -311,13 +339,104 @@
                 <path d="M20 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z" fill="#1ABCFE" />
               </svg>
             </div>
-            <p class="text-sm">Figma</p>
+            <p class="text-sm lg:text-base font-bold">Figma</p>
           </li>
         </ul>
       </div>
     </section>
     <section>
       <h2>Works</h2>
+      <div>
+        <article>
+          <NuxtLink to="/works/hpv-interactive-journey">
+            <NuxtImg />
+            <h3>HPV Interactive Journey</h3>
+            <p>NgobrolinHPV.com — Bridge Story Event, Sep 22, 2025</p>
+            <span>View Detail</span>
+          </NuxtLink>
+        </article>
+
+        <article>
+          <NuxtLink to="/works/nhpv-couple-quiz">
+            <NuxtImg />
+            <h3>NHPV Couple Quiz</h3>
+            <p>NgobrolinHPV.com — Bridge Story Event, Sep 22, 2025</p>
+            <span>View Detail</span>
+          </NuxtLink>
+        </article>
+
+        <article>
+          <NuxtLink to="/works/wishing-wall">
+            <NuxtImg />
+            <h3>Wishing Wall</h3>
+            <p>PT. Varbel Creative Works</p>
+            <span>View Detail</span>
+          </NuxtLink>
+        </article>
+
+        <article>
+          <NuxtLink to="/works/cimb-niaga-promo-carousel-photobooth">
+            <NuxtImg />
+            <h3>CIMB Niaga Promo Carousel + Photobooth</h3>
+            <p>CIMB Niaga Event — [Month DD, YYYY]</p>
+            <span>View Detail</span>
+          </NuxtLink>
+        </article>
+
+        <article>
+          <NuxtLink to="/works/photobooth-realtime-led-display">
+            <NuxtImg />
+            <h3>Photobooth + Realtime LED Display</h3>
+            <p>[Event Name] — [Month DD, YYYY]</p>
+            <span>View Detail</span>
+          </NuxtLink>
+        </article>
+
+        <article>
+          <NuxtLink to="/works/ai-face-swap-system">
+            <NuxtImg />
+            <h3>AI Face Swap System</h3>
+            <p>captureitphotobooth.id — Internal Application</p>
+            <span>View Detail</span>
+          </NuxtLink>
+        </article>
+
+        <article>
+          <NuxtLink to="/works/ai-generative-photobooth">
+            <NuxtImg />
+            <h3>AI Generative Photobooth</h3>
+            <p>captureitphotobooth.id — Internal Application</p>
+            <span>View Detail</span>
+          </NuxtLink>
+        </article>
+
+        <article>
+          <NuxtLink to="/works/catch-the-falling-item-game">
+            <NuxtImg />
+            <h3>Catch the Falling Item Game</h3>
+            <p>PT. Varbel Creative Works</p>
+            <span>View Detail</span>
+          </NuxtLink>
+        </article>
+
+        <article>
+          <NuxtLink to="/works/beauty-photobooth-blackmores">
+            <NuxtImg />
+            <h3>Beauty Photobooth</h3>
+            <p>Blackmores Product Launch Event — [Month DD, YYYY]</p>
+            <span>View Detail</span>
+          </NuxtLink>
+        </article>
+
+        <article>
+          <NuxtLink to="/works/warehouse-management-system">
+            <NuxtImg />
+            <h3>Warehouse Management System</h3>
+            <p>captureitphotobooth.id — Internal Application</p>
+            <span>View Detail</span>
+          </NuxtLink>
+        </article>
+      </div>
     </section>
     <section>
       <h2>Journey</h2>

@@ -12,7 +12,7 @@ const toggleNav = () => {
       class="relative z-50 h-16 lg:h-20 lg:flex lg:flex-col justify-center bg-black"
     >
       <ul
-        class="md:hidden relative z-20 h-full flex justify-between px-4 border-2 border-white bg-black text-white items-center"
+        class="md:hidden relative z-50 h-full flex justify-between px-4 border-2 border-white bg-black text-white items-center"
       >
         <li class="text-3xl">
           <NuxtLink to="/">IP</NuxtLink>
