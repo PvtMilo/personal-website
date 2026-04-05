@@ -1,5 +1,5 @@
 <template>
-  <h2 class="text-2xl font-bold text-white sm:text-3xl">Journey</h2>
+  <h2 class="text-3xl font-bold text-white sm:text-4xl">Journey</h2>
 
   <div class="relative w-full max-w-5xl px-4">
     <!-- garis tengah desktop -->
@@ -24,10 +24,10 @@
           <div
             class="flex w-full max-w-xs flex-col gap-1 text-white md:items-end md:text-right"
           >
-            <h3 class="text-sm font-bold leading-5 sm:text-lg">
+            <h3 class="text-base font-bold leading-6 sm:text-xl">
               Full Stack Developer
             </h3>
-            <h4 class="text-xs font-semibold">PT. Varbel Creative Works</h4>
+            <h4 class="text-sm font-semibold">PT. Varbel Creative Works</h4>
 
             <div class="flex items-center gap-2 md:justify-end">
               <svg
@@ -44,7 +44,7 @@
                   d="M8 3.75V6m8-2.25V6M3.75 9.75h16.5M5.25 5.25h13.5A1.5 1.5 0 0 1 20.25 6.75v12A1.5 1.5 0 0 1 18.75 20.25H5.25A1.5 1.5 0 0 1 3.75 18.75v-12A1.5 1.5 0 0 1 5.25 5.25Z"
                 />
               </svg>
-              <h5 class="text-xs text-zinc-300">Sept 2025 - Present</h5>
+              <h5 class="text-sm text-zinc-300">Sept 2025 - Present</h5>
             </div>
           </div>
         </div>
@@ -66,10 +66,10 @@
           class="col-start-2 row-start-1 md:col-start-3 md:justify-self-start"
         >
           <div class="flex w-full max-w-xs flex-col gap-1 text-white">
-            <h3 class="text-sm font-bold leading-5 sm:text-lg">
+            <h3 class="text-base font-bold leading-6 sm:text-xl">
               Product Development Lead
             </h3>
-            <h4 class="text-xs font-semibold">Captureit Photobooth</h4>
+            <h4 class="text-sm font-semibold">Captureit Photobooth</h4>
 
             <div class="flex items-center gap-2">
               <svg
@@ -86,7 +86,7 @@
                   d="M8 3.75V6m8-2.25V6M3.75 9.75h16.5M5.25 5.25h13.5A1.5 1.5 0 0 1 20.25 6.75v12A1.5 1.5 0 0 1 18.75 20.25H5.25A1.5 1.5 0 0 1 3.75 18.75v-12A1.5 1.5 0 0 1 5.25 5.25Z"
                 />
               </svg>
-              <h5 class="text-xs text-zinc-300">Sept 2024 - Sept 2025</h5>
+              <h5 class="text-sm text-zinc-300">Sept 2024 - Sept 2025</h5>
             </div>
           </div>
         </div>
@@ -108,10 +108,10 @@
           <div
             class="flex w-full max-w-xs flex-col gap-1 text-white md:items-end md:text-right"
           >
-            <h3 class="text-sm font-bold leading-5 sm:text-lg">
+            <h3 class="text-base font-bold leading-6 sm:text-xl">
               Product Development Lead
             </h3>
-            <h4 class="text-xs font-semibold">Shuttshoot Official</h4>
+            <h4 class="text-sm font-semibold">Shuttshoot Official</h4>
 
             <div class="flex items-center gap-2 md:justify-end">
               <svg
@@ -128,7 +128,7 @@
                   d="M8 3.75V6m8-2.25V6M3.75 9.75h16.5M5.25 5.25h13.5A1.5 1.5 0 0 1 20.25 6.75v12A1.5 1.5 0 0 1 18.75 20.25H5.25A1.5 1.5 0 0 1 3.75 18.75v-12A1.5 1.5 0 0 1 5.25 5.25Z"
                 />
               </svg>
-              <h5 class="text-xs text-zinc-300">Aug 2022 - Aug 2024</h5>
+              <h5 class="text-sm text-zinc-300">Aug 2022 - Aug 2024</h5>
             </div>
           </div>
         </div>
@@ -150,8 +150,8 @@
           class="col-start-2 row-start-1 md:col-start-3 md:justify-self-start"
         >
           <div class="flex w-full max-w-xs flex-col gap-1 text-white">
-            <h3 class="text-sm font-bold leading-5 sm:text-lg">Event Crew</h3>
-            <h4 class="text-xs font-semibold">Captureit Photobooth</h4>
+            <h3 class="text-base font-bold leading-6 sm:text-xl">Event Crew</h3>
+            <h4 class="text-sm font-semibold">Captureit Photobooth</h4>
 
             <div class="flex items-center gap-2">
               <svg
@@ -168,7 +168,7 @@
                   d="M8 3.75V6m8-2.25V6M3.75 9.75h16.5M5.25 5.25h13.5A1.5 1.5 0 0 1 20.25 6.75v12A1.5 1.5 0 0 1 18.75 20.25H5.25A1.5 1.5 0 0 1 3.75 18.75v-12A1.5 1.5 0 0 1 5.25 5.25Z"
                 />
               </svg>
-              <h5 class="text-xs text-zinc-300">Apr 2021 - Aug 2022</h5>
+              <h5 class="text-sm text-zinc-300">Apr 2021 - Aug 2022</h5>
             </div>
           </div>
         </div>

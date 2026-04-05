@@ -1,8 +1,8 @@
 <template>
-  <div class="flex flex-col border-2 gap-4">
+  <div class="flex flex-col gap-5">
     <h2 class="text-2xl lg:text-3xl font-bold text-center">Tech Stack</h2>
-    <ul class="grid grid-cols-4 sm:grid-cols-7 text-center border-2 lg:gap-4">
-      <li class="flex flex-col items-center gap-2 border-2">
+    <ul class="grid gap-4 grid-cols-4 sm:grid-cols-7 text-center">
+      <li class="flex flex-col items-center gap-2">
         <div class="flex h-12 w-12 md:h-16 md:w-16 lg:h-16 lg:w-16 items-center justify-center">
           <svg
             class="w-12 h-12 md:h-16 md:w-16 lg:h-16 lg:w-16"
@@ -27,7 +27,7 @@
         </div>
         <p class="text-sm lg:text-base font-bold">JavaScript</p>
       </li>
-      <li class="flex flex-col items-center gap-2 border-2">
+      <li class="flex flex-col items-center gap-2">
         <div class="flex h-12 w-12 md:h-16 md:w-16 lg:h-16 lg:w-16 items-center justify-center">
           <svg
             class="w-12 h-12 md:h-16 md:w-16 lg:h-16 lg:w-16"
@@ -55,7 +55,7 @@
         </div>
         <p class="text-sm lg:text-base font-bold">Vue.js</p>
       </li>
-      <li class="flex flex-col items-center gap-2 border-2">
+      <li class="flex flex-col items-center gap-2">
         <div class="flex h-12 w-12 md:h-16 md:w-16 lg:h-16 lg:w-16 items-center justify-center">
           <svg
             class="w-12 h-12 md:h-16 md:w-16 lg:h-16 lg:w-16"
@@ -111,7 +111,7 @@
         </div>
         <p class="text-sm lg:text-base font-bold">Python</p>
       </li>
-      <li class="flex flex-col items-center gap-2 border-2">
+      <li class="flex flex-col items-center gap-2">
         <div class="flex h-12 w-12 md:h-16 md:w-16 lg:h-16 lg:w-16 items-center justify-center">
           <svg
             class="w-12 h-12 md:h-16 md:w-16 lg:h-16 lg:w-16"
@@ -126,7 +126,7 @@
         </div>
         <p class="text-sm lg:text-base font-bold">FastAPI</p>
       </li>
-      <li class="flex flex-col items-center gap-2 border-2">
+      <li class="flex flex-col items-center gap-2">
         <div class="flex h-12 w-12 md:h-16 md:w-16 lg:h-16 lg:w-16 items-center justify-center">
           <svg
             class="w-12 h-12 md:h-16 md:w-16 lg:h-16 lg:w-16"
@@ -146,7 +146,7 @@
         </div>
         <p class="text-sm lg:text-base font-bold">Nuxt.js</p>
       </li>
-      <li class="flex flex-col items-center gap-2 border-2">
+      <li class="flex flex-col items-center gap-2">
         <div class="flex h-12 w-12 md:h-16 md:w-16 lg:h-16 lg:w-16 items-center justify-center">
           <svg
             class="w-12 h-12 md:h-16 md:w-16 lg:h-16 lg:w-16"
@@ -182,7 +182,7 @@
         </div>
         <p class="text-sm lg:text-base font-bold">PostgreSQL</p>
       </li>
-      <li class="flex flex-col items-center gap-2 border-2">
+      <li class="flex flex-col items-center gap-2">
         <div class="flex h-12 w-12 md:h-16 md:w-16 lg:h-16 lg:w-16 items-center justify-center">
           <svg
             class="w-12 h-12 md:h-16 md:w-16 lg:h-16 lg:w-16"
@@ -214,10 +214,10 @@
     </ul>
   </div>
   <!-- TOOLS -->
-  <div class="flex flex-col gap-4">
+  <div class="flex flex-col gap-5">
     <h2 class="text-2xl text-center lg:text-3xl font-bold">Tools</h2>
     <ul class="flex justify-center gap-4 flex-wrap">
-      <li class="flex flex-col items-center gap-2 border-2">
+      <li class="flex flex-col items-center gap-2">
         <div class="flex h-12 w-12 md:h-16 md:w-16 lg:h-16 lg:w-16 items-center justify-center">
           <svg
             class="w-12 h-12 md:h-16 md:w-16 lg:h-16 lg:w-16"
@@ -233,7 +233,7 @@
         </div>
         <p class="text-sm lg:text-base font-bold">Git</p>
       </li>
-      <li class="flex flex-col items-center gap-2 border-2">
+      <li class="flex flex-col items-center gap-2">
         <div class="flex h-12 w-12 md:h-16 md:w-16 lg:h-16 lg:w-16 items-center justify-center">
           <svg
             class="w-12 h-12 md:h-16 md:w-16 lg:h-16 lg:w-16"
@@ -249,7 +249,7 @@
         </div>
         <p class="text-sm lg:text-base font-bold">Github</p>
       </li>
-      <li class="flex flex-col items-center gap-2 border-2">
+      <li class="flex flex-col items-center gap-2">
         <div class="flex h-12 w-12 md:h-16 md:w-16 lg:h-16 lg:w-16 items-center justify-center">
           <svg
             class="w-12 h-12 md:h-16 md:w-16 lg:h-16 lg:w-16"

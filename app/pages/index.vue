@@ -3,41 +3,43 @@ import WorksGrid from "../components/WorksGrid.vue";
 </script>
 
 <template>
-  <main class="flex flex-col items-center gap-20">
+  <main class="flex flex-col items-center gap-10">
     <!-- HERO -->
     <section
-      class="w-full lg:max-w-7xl min-h-[calc(100dvh-4rem)] lg:min-h-[calc(100dvh-5rem)] flex flex-col justify-center border-b-2 border-white mx-auto"
+      class="w-full lg:max-w-7xl min-h-[calc(100dvh-4rem)] lg:min-h-[calc(100dvh-5rem)] flex flex-col justify-center mx-auto border-b-2"
     >
       <div
-        class="grid sm:bg-amber-900 md:bg-red-950 lg:bg-green-900 xl:bg-red-800 lg:grid-cols-4 lg:grid-rows-4 place-items-center lg:place-items-start gap-4 lg:gap-4 text-center text-white border-2"
+        class="grid lg:grid-cols-4 lg:grid-rows-4 place-items-center lg:place-items-start gap-4 lg:gap-4 text-center text-white"
       >
         <h1
-          class="lg:col-start-1 lg:col-end-4 border-2 text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-semibold"
+          class="lg:col-start-1 lg:col-end-4 text-4xl sm:text-5xl md:text-6xl lg:text-6xl xl:text-7xl font-semibold leading-none"
         >
           ILHAM DWI PAMBUDI
         </h1>
+
         <h2
-          class="sm:text-3xl md:text-4xl lg:col-start-1 lg:col-end-4 border-2 text-2xl lg:text-6xl"
+          class="text-2xl sm:text-3xl md:text-4xl lg:col-start-1 lg:col-end-4 lg:text-5xl leading-tight"
         >
           Full-Stack Developer
         </h2>
 
         <div
-          class="lg:col-start-4 lg:row-start-1 lg:row-end-5 lg:place-self-center border-2 h-60 w-60 md:h-70 md:w-70 xl:h-70 xl:w-70 rounded-full overflow-hidden"
+          class="lg:col-start-4 lg:row-start-1 lg:row-end-5 lg:place-self-center h-64 w-64 md:h-72 md:w-72 lg:h-72 lg:w-72 xl:h-80 xl:w-80 rounded-full overflow-hidden"
         >
           <NuxtImg class="h-full w-full object-cover" src="/avatar.jpg" />
         </div>
 
         <div
-          class="text-base lg:col-start-1 lg:col-end-4 border-2 lg:text-left lg:max-w-2xl"
+          class="text-base lg:col-start-1 lg:col-end-4 lg:text-left lg:max-w-2xl"
         >
           <p
-            class="max-w-xl text-base sm:text-lg sm:text-normal lg:max-w-2xl lg:text-xl"
+            class="max-w-xl text-base sm:text-lg lg:max-w-2xl lg:text-xl leading-relaxed"
           >
             A passionate web developer focused on building modern and meaningful
             digital experiences.
           </p>
         </div>
+
         <button
           class="rounded-xl border px-4 py-2 hover:bg-white hover:text-black transition"
         >
@@ -48,26 +50,26 @@ import WorksGrid from "../components/WorksGrid.vue";
     <!-- EXPERTISE -->
     <section
       id="expertise"
-      class="flex flex-col sm:items-center gap-6 border-2 mx-auto bg-amber-500 items-center"
+      class="flex flex-col sm:items-center gap-10 mx-auto items-center border-b-2 w-full max-w-7xl pb-10"
     >
       <Expertise />
     </section>
     <!-- WORKS -->
     <section
       id="works"
-      class="flex justify-center items-center flex-col border-2 w-full gap-10"
+      class="flex justify-center items-center flex-col w-full gap-10"
     >
       <WorksGrid />
     </section>
     <!-- JOURNEY -->
-    <section class="flex flex-col items-center gap-8 border-2">
+    <section class="flex flex-col items-center gap-8 my-15">
       <Journey />
     </section>
     <!-- CONTACT -->
     <section
       class="w-11/12 md:w-full grid md:grid-cols-2 max-w-7xl gap-10 lg:gap-15"
     >
-      <div class="border-2 flex flex-col gap-4">
+      <div class="flex flex-col gap-4">
         <h2 class="text-3xl lg:text-4xl font-bold">Let's Work Together</h2>
         <p>
           Whether it’s a job opportunity, a collaboration, an open-source
@@ -141,8 +143,10 @@ import WorksGrid from "../components/WorksGrid.vue";
           </li>
         </ul>
         <div class="flex flex-col">
-          <p class="text-lg font-bold text-center md:text-left ">Find me on</p>
-          <div class="flex justify-center md:justify-start gap-2 lg:justify-start flex-wrap">
+          <p class="text-lg font-bold text-center md:text-left">Find me on</p>
+          <div
+            class="flex justify-center md:justify-start gap-2 lg:justify-start flex-wrap"
+          >
             <!-- INSTAGRAM -->
             <a
               href="https://www.instagram.com/iamsamuelilham?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="

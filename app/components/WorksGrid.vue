@@ -1,7 +1,7 @@
 <template>
   <h2 class="text-2xl lg:text-3xl font-bold text-center">Works</h2>
   <div
-    class="w-full grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 border-2 justify-center xl:w-5/6 max-w-8xl"
+    class="w-full grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 justify-center xl:w-5/6 max-w-8xl"
   >
     <!-- Journey HPV Interactive -->
     <NuxtLink
@@ -11,7 +11,7 @@
       <article class="flex h-full flex-col gap-4">
         <NuxtImg
           src="/assets/works/journey-nhpv.jpg"
-          class="rounded-lg overflow-hidden"
+          class="rounded-lg overflow-hidden bg-zinc-900"
         />
         <div class="flex flex-1 flex-col gap-2">
           <h3 class="font-bold text-xl">NHPV Interactive Journey</h3>
@@ -47,7 +47,7 @@
               </li>
             </ul>
           </div>
-          <div class="mt-auto flex items-center border border-amber-500">
+          <div class="mt-auto flex items-center">
             <span class="rounded-xl border px-4 py-2 hover:bg-white hover:text-black transition font-semibold"
               >View Detail</span
             >
@@ -64,7 +64,7 @@
       <article class="flex h-full flex-col gap-4">
         <NuxtImg
           src="/assets/works/faceswap-ai.jpg"
-          class="rounded-lg overflow-hidden"
+          class="rounded-lg overflow-hidden bg-zinc-900"
         />
         <div class="flex flex-1 flex-col gap-2">
           <h3 class="font-bold text-xl">AI Face Swap System</h3>
@@ -95,7 +95,7 @@
               </li>
             </ul>
           </div>
-          <div class="mt-auto flex items-center border border-amber-500">
+          <div class="mt-auto flex items-center">
             <span class="rounded-xl border px-4 py-2 hover:bg-white hover:text-black transition font-semibold"
               >View Detail</span
             >
@@ -112,7 +112,7 @@
       <article class="flex h-full flex-col gap-4">
         <NuxtImg
           src="/assets/works/quiz-nhpv.jpg"
-          class="rounded-lg overflow-hidden"
+          class="rounded-lg overflow-hidden bg-zinc-900"
         />
         <div class="flex flex-1 flex-col gap-2">
           <h3 class="font-bold text-xl">NHPV Couple Quiz</h3>
@@ -143,7 +143,7 @@
               </li>
             </ul>
           </div>
-          <div class="mt-auto flex items-center border border-amber-500">
+          <div class="mt-auto flex items-center">
             <span class="rounded-xl border px-4 py-2 hover:bg-white hover:text-black transition font-semibold"
               >View Detail</span
             >
@@ -160,7 +160,7 @@
       <article class="flex h-full flex-col gap-4">
         <NuxtImg
           src="/assets/works/generative-ai.jpg"
-          class="rounded-lg overflow-hidden"
+          class="rounded-lg overflow-hidden bg-zinc-900"
         />
         <div class="flex flex-1 flex-col gap-2">
           <h3 class="font-bold text-xl">AI Generative Photobooth</h3>
@@ -196,7 +196,7 @@
               </li>
             </ul>
           </div>
-          <div class="mt-auto flex items-center border border-amber-500">
+          <div class="mt-auto flex items-center">
             <span class="rounded-xl border px-4 py-2 hover:bg-white hover:text-black transition font-semibold"
               >View Detail</span
             >
@@ -213,7 +213,7 @@
       <article class="flex h-full flex-col gap-4">
         <NuxtImg
           src="/assets/works/wishing-wall.jpg"
-          class="rounded-lg overflow-hidden"
+          class="rounded-lg overflow-hidden bg-zinc-900"
         />
 
         <div class="flex flex-1 flex-col gap-2">
@@ -233,7 +233,7 @@
               </li>
             </ul>
           </div>
-          <div class="mt-auto flex items-center border border-amber-500">
+          <div class="mt-auto flex items-center">
             <span class="rounded-xl border px-4 py-2 hover:bg-white hover:text-black transition font-semibold">
               View Detail
             </span>
@@ -250,7 +250,7 @@
       <article class="flex h-full flex-col gap-4">
         <NuxtImg
           src="/assets/works/carousel-photobooth.jpg"
-          class="rounded-lg overflow-hidden"
+          class="rounded-lg overflow-hidden bg-zinc-900"
         />
         <div class="flex flex-1 flex-col gap-2">
           <h3 class="font-bold text-xl">
@@ -283,7 +283,7 @@
               </li>
             </ul>
           </div>
-          <div class="mt-auto flex items-center border border-amber-500">
+          <div class="mt-auto flex items-center">
             <span class="rounded-xl border px-4 py-2 hover:bg-white hover:text-black transition font-semibold"
               >View Detail</span
             >
@@ -300,7 +300,7 @@
       <article class="flex h-full flex-col gap-4">
         <NuxtImg
           src="/assets/works/allianz-realtime-photobooth.jpg"
-          class="rounded-lg overflow-hidden"
+          class="rounded-lg overflow-hidden bg-zinc-900"
         />
         <div class="flex flex-1 flex-col gap-2">
           <h3 class="font-bold text-xl">Photobooth + Realtime LED Display</h3>
@@ -324,7 +324,7 @@
               </li>
             </ul>
           </div>
-          <div class="mt-auto flex items-center border border-amber-500">
+          <div class="mt-auto flex items-center">
             <span class="rounded-xl border px-4 py-2 hover:bg-white hover:text-black transition font-semibold"
               >View Detail</span
             >
@@ -341,7 +341,7 @@
       <article class="flex h-full flex-col gap-4">
         <NuxtImg
           src="/assets/works/catch-item-game.jpg"
-          class="rounded-lg overflow-hidden"
+          class="rounded-lg overflow-hidden bg-zinc-900"
         />
         <div class="flex flex-1 flex-col gap-2">
           <h3 class="font-bold text-xl">Catch the Falling Item Game</h3>
@@ -365,7 +365,7 @@
               </li>
             </ul>
           </div>
-          <div class="mt-auto flex items-center border border-amber-500">
+          <div class="mt-auto flex items-center">
             <span class="rounded-xl border px-4 py-2 hover:bg-white hover:text-black transition font-semibold"
               >View Detail</span
             >
@@ -382,7 +382,7 @@
       <article class="flex h-full flex-col gap-4">
         <NuxtImg
           src="/assets/works/beauty-photobooth.jpg"
-          class="rounded-lg overflow-hidden"
+          class="rounded-lg overflow-hidden bg-zinc-900"
         />
         <div class="flex flex-1 flex-col gap-2">
           <h3 class="font-bold text-xl">Beauty Photobooth</h3>
@@ -418,7 +418,7 @@
               </li>
             </ul>
           </div>
-          <div class="mt-auto flex items-center border border-amber-500">
+          <div class="mt-auto flex items-center">
             <span class="rounded-xl border px-4 py-2 hover:bg-white hover:text-black transition font-semibold"
               >View Detail</span
             >
@@ -435,7 +435,7 @@
       <article class="flex h-full flex-col gap-4">
         <NuxtImg
           src="/assets/works/realtime-photobooth-name.jpg"
-          class="rounded-lg overflow-hidden"
+          class="rounded-lg overflow-hidden bg-zinc-900"
         />
         <div class="flex flex-1 flex-col gap-2">
           <h3 class="font-bold text-xl">Realtime Photobooth to Led TV</h3>
@@ -466,7 +466,7 @@
               </li>
             </ul>
           </div>
-          <div class="mt-auto flex items-center border border-amber-500">
+          <div class="mt-auto flex items-center">
             <span class="rounded-xl border px-4 py-2 hover:bg-white hover:text-black transition font-semibold"
               >View Detail</span
             >
@@ -483,7 +483,7 @@
       <article class="flex h-full flex-col gap-4">
         <NuxtImg
           src="/assets/works/realtime-photobooth-name.jpg"
-          class="rounded-lg overflow-hidden"
+          class="rounded-lg overflow-hidden bg-zinc-900"
         />
         <div class="flex flex-1 flex-col gap-2">
           <h3 class="font-bold text-xl">AI Generative Workflow Comfy UI</h3>
@@ -514,7 +514,7 @@
               </li>
             </ul>
           </div>
-          <div class="mt-auto flex items-center border border-amber-500">
+          <div class="mt-auto flex items-center">
             <span class="rounded-xl border px-4 py-2 hover:bg-white hover:text-black transition font-semibold"
               >View Detail</span
             >
