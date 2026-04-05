@@ -1,11 +1,11 @@
 <template>
-  <div class="flex flex-col border-2">
-    <h2 class="text-2xl lg:text-3xl font-bold text-center mb-4">Tech Stack</h2>
+  <div class="flex flex-col border-2 gap-4">
+    <h2 class="text-2xl lg:text-3xl font-bold text-center">Tech Stack</h2>
     <ul class="grid grid-cols-4 sm:grid-cols-7 text-center border-2 lg:gap-4">
       <li class="flex flex-col items-center gap-2 border-2">
-        <div class="flex h-16 w-16 lg:h-20 lg:w-20 items-center justify-center">
+        <div class="flex h-12 w-12 md:h-16 md:w-16 lg:h-16 lg:w-16 items-center justify-center">
           <svg
-            class="w-12 h-12 md:h-16 md:w-16 lg:h-20 lg:w-20"
+            class="w-12 h-12 md:h-16 md:w-16 lg:h-16 lg:w-16"
             viewBox="0 0 256 256"
             xmlns="http://www.w3.org/2000/svg"
             preserveAspectRatio="xMinYMin meet"
@@ -28,9 +28,9 @@
         <p class="text-sm lg:text-base font-bold">JavaScript</p>
       </li>
       <li class="flex flex-col items-center gap-2 border-2">
-        <div class="flex h-16 w-16 lg:h-20 lg:w-20 items-center justify-center">
+        <div class="flex h-12 w-12 md:h-16 md:w-16 lg:h-16 lg:w-16 items-center justify-center">
           <svg
-            class="w-12 h-12 md:h-16 md:w-16 lg:h-20 lg:w-20"
+            class="w-12 h-12 md:h-16 md:w-16 lg:h-16 lg:w-16"
             viewBox="0 0 32 32"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -56,9 +56,9 @@
         <p class="text-sm lg:text-base font-bold">Vue.js</p>
       </li>
       <li class="flex flex-col items-center gap-2 border-2">
-        <div class="flex h-16 w-16 lg:h-20 lg:w-20 items-center justify-center">
+        <div class="flex h-12 w-12 md:h-16 md:w-16 lg:h-16 lg:w-16 items-center justify-center">
           <svg
-            class="w-12 h-12 md:h-16 md:w-16 lg:h-20 lg:w-20"
+            class="w-12 h-12 md:h-16 md:w-16 lg:h-16 lg:w-16"
             viewBox="0 0 32 32"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -112,9 +112,9 @@
         <p class="text-sm lg:text-base font-bold">Python</p>
       </li>
       <li class="flex flex-col items-center gap-2 border-2">
-        <div class="flex h-16 w-16 lg:h-20 lg:w-20 items-center justify-center">
+        <div class="flex h-12 w-12 md:h-16 md:w-16 lg:h-16 lg:w-16 items-center justify-center">
           <svg
-            class="w-12 h-12 md:h-16 md:w-16 lg:h-20 lg:w-20"
+            class="w-12 h-12 md:h-16 md:w-16 lg:h-16 lg:w-16"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 128 128"
           >
@@ -127,9 +127,9 @@
         <p class="text-sm lg:text-base font-bold">FastAPI</p>
       </li>
       <li class="flex flex-col items-center gap-2 border-2">
-        <div class="flex h-16 w-16 lg:h-20 lg:w-20 items-center justify-center">
+        <div class="flex h-12 w-12 md:h-16 md:w-16 lg:h-16 lg:w-16 items-center justify-center">
           <svg
-            class="w-12 h-12 md:h-16 md:w-16 lg:h-20 lg:w-20"
+            class="w-12 h-12 md:h-16 md:w-16 lg:h-16 lg:w-16"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
             fill-rule="evenodd"
@@ -147,9 +147,9 @@
         <p class="text-sm lg:text-base font-bold">Nuxt.js</p>
       </li>
       <li class="flex flex-col items-center gap-2 border-2">
-        <div class="flex h-16 w-16 lg:h-20 lg:w-20 items-center justify-center">
+        <div class="flex h-12 w-12 md:h-16 md:w-16 lg:h-16 lg:w-16 items-center justify-center">
           <svg
-            class="w-12 h-12 md:h-16 md:w-16 lg:h-20 lg:w-20"
+            class="w-12 h-12 md:h-16 md:w-16 lg:h-16 lg:w-16"
             viewBox="-4 0 264 264"
             xmlns="http://www.w3.org/2000/svg"
             preserveAspectRatio="xMinYMin meet"
@@ -183,9 +183,9 @@
         <p class="text-sm lg:text-base font-bold">PostgreSQL</p>
       </li>
       <li class="flex flex-col items-center gap-2 border-2">
-        <div class="flex h-16 w-16 lg:h-20 lg:w-20 items-center justify-center">
+        <div class="flex h-12 w-12 md:h-16 md:w-16 lg:h-16 lg:w-16 items-center justify-center">
           <svg
-            class="w-12 h-12 md:h-16 md:w-16 lg:h-20 lg:w-20"
+            class="w-12 h-12 md:h-16 md:w-16 lg:h-16 lg:w-16"
             viewBox="-16.5 0 289 289"
             version="1.1"
             xmlns="http://www.w3.org/2000/svg"
@@ -216,11 +216,11 @@
   <!-- TOOLS -->
   <div class="flex flex-col gap-4">
     <h2 class="text-2xl text-center lg:text-3xl font-bold">Tools</h2>
-    <ul class="grid grid-cols-3 sm:grid-cols-7 text-center lg:gap-4">
-      <li class="flex flex-col sm:col-start-3 items-center gap-2 border-2">
-        <div class="flex h-16 w-16 lg:h-20 lg:w-20 items-center justify-center">
+    <ul class="flex justify-center gap-4 flex-wrap">
+      <li class="flex flex-col items-center gap-2 border-2">
+        <div class="flex h-12 w-12 md:h-16 md:w-16 lg:h-16 lg:w-16 items-center justify-center">
           <svg
-            class="w-12 h-12 md:h-16 md:w-16 lg:h-20 lg:w-20"
+            class="w-12 h-12 md:h-16 md:w-16 lg:h-16 lg:w-16"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
             fill="none"
@@ -234,9 +234,9 @@
         <p class="text-sm lg:text-base font-bold">Git</p>
       </li>
       <li class="flex flex-col items-center gap-2 border-2">
-        <div class="flex h-16 w-16 lg:h-20 lg:w-20 items-center justify-center">
+        <div class="flex h-12 w-12 md:h-16 md:w-16 lg:h-16 lg:w-16 items-center justify-center">
           <svg
-            class="w-12 h-12 md:h-16 md:w-16 lg:h-20 lg:w-20"
+            class="w-12 h-12 md:h-16 md:w-16 lg:h-16 lg:w-16"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
             fill="none"
@@ -250,9 +250,9 @@
         <p class="text-sm lg:text-base font-bold">Github</p>
       </li>
       <li class="flex flex-col items-center gap-2 border-2">
-        <div class="flex h-16 w-16 lg:h-20 lg:w-20 items-center justify-center">
+        <div class="flex h-12 w-12 md:h-16 md:w-16 lg:h-16 lg:w-16 items-center justify-center">
           <svg
-            class="w-12 h-12 md:h-16 md:w-16 lg:h-20 lg:w-20"
+            class="w-12 h-12 md:h-16 md:w-16 lg:h-16 lg:w-16"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
             fill="none"
